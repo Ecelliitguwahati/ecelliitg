@@ -1,0 +1,250 @@
+@font-face {
+    font-family: 'GT Walsheim Pro';
+    src: local('GT Walsheim Pro Medium'), local('GT-Walsheim-Pro-Medium'),
+        url('../font/GTWalsheimPro-Medium.woff2') format('woff2'),
+        url('../font/GTWalsheimPro-Medium.woff') format('woff'),
+        url('../font/GTWalsheimPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.loading {
+    /* background: url('../assest/ecell-logo-gifver3.gif') no-repeat center center; */
+    background: linear-gradient(93.98deg, #131313 -20.24%, #162949 100%) !important;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9999999;
+    text-align: center;
+    height: 100vh;
+}
+
+.loadecell {
+    width: 60vh !important;
+    margin: auto !important;
+    position: relative;
+    top: 20vh
+}
+
+.loaded {
+    display: none;
+}
+
+.home {
+    display: none;
+}
+
+.blue-top {
+    padding: 10% 0 0 8vw;
+    margin-bottom: 20vh;
+}
+
+.home-img {
+    width: 100%;
+
+}
+
+body {
+    color: white !important;
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+}
+
+.head {
+    background: linear-gradient(93.98deg, #131313 -20.24%, #162949 100%) !important;
+}
+
+.head a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.nav-links ul li a:hover {
+    transition: 0.5s;
+    border-bottom: 1px solid white;
+}
+
+.active-nav {
+    border-bottom: 1px solid white;
+}
+
+nav {
+    background: transparent !important;
+    padding: 2vh 8vw !important;
+}
+
+a {
+    color: white;
+}
+
+.top {
+    text-align: center;
+    padding: 10vh 25vw;
+}
+
+.content {
+    padding-top: 5vh;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 2vh;
+}
+
+.carousel-indicators>li {
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    background-color: white !important;
+    border: solid 2px black;
+}
+
+.know {
+    background: #FFFFFF;
+    border-radius: 2px;
+    border: none!important;
+    width: fit-content;
+    height: fit-content;
+    font-size: 18px;
+    padding: 5px 10px;
+    margin-bottom: 2vh;
+}
+
+.later{
+    background: transparent;
+    border-radius: 2px;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    width: fit-content;
+    height: fit-content;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+.carousel-item {
+    text-transform: uppercase;
+    font-size: 32px;
+    color: black;
+    margin-bottom: 3%;
+    font-weight: bold;
+}
+
+.font1 {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.font2 {
+    font-size: 24px;
+    font-weight: 300 !important;
+}
+
+.font3 {
+    color: #162949;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.caro {
+    padding: 2% 15%;
+}
+
+.blue-top {
+    padding-right: 10px;
+}
+
+.subs {
+    font-size: 28px;
+}
+
+
+@media (max-width:750px) {
+    .font1 {
+        font-size: 32px;
+    }
+
+    .font2 {
+        font-size: 16px;
+        ;
+    }
+
+    .carousel-item {
+        font-size: 24px;
+    }
+
+    .carousel-item {
+        margin-bottom: 10%;
+    }
+
+    .contact {
+        position: relative;
+        top: 15px;
+    }
+
+    .subs {
+        font-size: 18px !important;
+        font-weight: 500;
+    }
+
+    .subscription {
+        text-align: center !important;
+    }
+
+    .cent {
+        text-align: center;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .social {
+        padding: 0 30vw;
+        padding-top: 2vh;
+    }
+
+    .loadecell {
+        width: 50vw !important;
+    }
+
+    .blue-top {
+        margin-bottom: 5vh;
+    }
+
+    .loadecell {
+        width: 100% !important;
+        top: 20vh;
+    }
+
+    .home-img {
+        position: relative;
+        right: -15px !important;
+    }
+
+    .hide {
+        display: none;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    
+    background-color: transparent;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:  linear-gradient(93.98deg, #131313 -20.24%, #162949 100%);
+    border-radius: 5px;
+  }

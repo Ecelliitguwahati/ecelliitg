@@ -1,0 +1,294 @@
+@font-face {
+    font-family: 'GT Walsheim Pro';
+    src: local('GT Walsheim Pro Medium'), local('GT-Walsheim-Pro-Medium'),
+        url('../font/GTWalsheimPro-Medium.woff2') format('woff2'),
+        url('../font/GTWalsheimPro-Medium.woff') format('woff'),
+        url('../font/GTWalsheimPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    color: white !important;
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.head {
+    background: linear-gradient(93.98deg, #131313 -20.24%, #162949 100%) !important;
+
+}
+
+.head a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    background: transparent !important;
+    padding: 2vh 8vw !important;
+}
+
+a {
+    color: white;
+}
+
+.nav-links ul li a:hover {
+    transition: 0.5s;
+    border-bottom: 1px solid white;
+}
+
+.active-nav {
+    border-bottom: 1px solid white;
+}
+
+.top {
+    text-align: center;
+    padding: 10vh 25vw;
+}
+
+.font3 {
+    color: #162949;
+}
+
+.content {
+    padding-top: 5vh;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 2vh;
+}
+
+.logos {
+    position: relative;
+    top: 30%;
+    opacity: 1 !important;
+}
+
+.overlay {
+    position: absolute;
+    top: 2vw;
+    bottom: 2vw;
+    left: 1vw;
+    right: 1vw;
+    opacity: 0.80;
+    display: none;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.fonting {
+    font-family: GT Walsheim Pro;
+    color: black;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.font2 {
+    font-family: GT Walsheim Pro;
+    font-weight: 300;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.book {
+    padding: 2vw 1vw 2vw 1vw;
+}
+
+.book2 {
+    display: none;
+}
+
+.blog2 {
+    display: none;
+}
+
+.blog3 {
+    display: none;
+}
+
+.video2 {
+    display: none;
+}
+
+.img-fluid {
+    width: 100%;
+}
+
+.pod2 {
+    display: none;
+}
+
+.pod3 {
+    display: none;
+}
+
+.book-cover {
+    border: 1px solid #131313;
+}
+
+.book-cover:hover {
+    border: 1px solid #131313;
+    filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.3));
+}
+
+
+.book-cover:hover+.overlay {
+    display: block;
+
+
+
+}
+
+.book-cover:active+.overlay {
+    display: block;
+
+}
+
+.pad {
+    padding: 0 5px !important;
+    margin: 0 !important;
+}
+
+.pad1 {
+    padding: 0 10px !important;
+    margin-bottom: 15px !important;
+}
+
+.blog:hover .card {
+    border: 1px solid #8C8C8C;
+    filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.3));
+}
+
+.card-body {
+    padding-left: 0 !important;
+}
+
+.pod:hover .card {
+    border: 1px solid #8C8C8C;
+    filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.3));
+}
+
+.linkT {
+    text-decoration: underline;
+}
+
+.page-item a {
+    background-color: white !important;
+    border: 1.5px #8C8C8C solid !important;
+    color: #8C8C8C !important;
+    margin: 4px;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
+.pagination .active a {
+    background-color: white !important;
+    border: 1.5px #131313 solid !important;
+    color: #131313 !important;
+}
+
+.pagination>li:first-child>a,
+.pagination>li:first-child>span {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.pagination>li:last-child>a,
+.pagination>li:last-child>span {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+@media (max-width:750px) {
+    .fonting {
+        font-size: 32px;
+    }
+
+    .font2 {
+        font-size: 16px;
+        ;
+    }
+
+    .cent {
+        text-align: center;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .social {
+        padding: 0 30vw;
+        padding-top: 2vh;
+    }
+
+    .tab .active a {
+        border-bottom: 0px solid #131313;
+        transition: 0.3s;
+    }
+
+    .tab a:hover {
+        border-bottom: 0px solid #131313;
+        transition: 0.3s;
+    }
+
+    .tab {
+
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    .menu {
+        font-size: 12px !important;
+    }
+
+}
+
+
+/* tab  */
+
+.tab {
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 1000;
+}
+
+.random {
+    text-align: center;
+}
+
+.menu a {
+    text-decoration: none;
+
+}
+
+.tab a:hover {
+    border-bottom: 2px solid #131313;
+    transition: 0.3s;
+}
+
+.tab .active a {
+    border-bottom: 2px solid #131313;
+    transition: 0.3s;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    
+    background-color: transparent;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:  linear-gradient(93.98deg, #131313 -20.24%, #162949 100%);
+    border-radius: 5px;
+  }

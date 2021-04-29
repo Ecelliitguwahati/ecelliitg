@@ -1,0 +1,351 @@
+@font-face {
+    font-family: 'GT Walsheim Pro';
+    src: local('GT Walsheim Pro Medium'), local('GT-Walsheim-Pro-Medium'),
+        url('../font/GTWalsheimPro-Medium.woff2') format('woff2'),
+        url('../font/GTWalsheimPro-Medium.woff') format('woff'),
+        url('../font/GTWalsheimPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+body {
+    color: white !important;
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.head {
+    background: linear-gradient(93.98deg, #131313 -20.24%, #162949 100%) !important;
+}
+
+nav {
+    background: transparent !important;
+    padding: 2vh 8vw !important;
+}
+
+.head a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.nav-links ul li a:hover {
+    transition: 0.5s;
+    border-bottom: 1px solid white;
+}
+
+.font1 {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.font2 {
+    font-size: 24px;
+    font-weight: 300 !important;
+}
+
+
+.top {
+    text-align: center;
+    padding: 10vh 25vw;
+}
+
+.content {
+    padding-top: 5vh;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 2vh;
+}
+
+.tab {
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 1000;
+}
+
+.random {
+    text-align: center;
+}
+
+.menu a {
+    text-decoration: none;
+
+}
+
+.tab a:hover {
+    border-bottom: 2px solid #131313;
+    transition: 0.3s;
+}
+
+.tab .active a {
+    border-bottom: 2px solid #131313;
+    transition: 0.3s;
+}
+
+
+/* CSS FOR VISION */
+
+.vision {
+    background: linear-gradient(93.98deg, #131313 -20.24%, #162949 100%) !important;
+    padding: 5vh 5vh 0 5vh;
+}
+
+/* CSS FOR TEAM */
+
+.team-content h1 {
+    font-size: 48px;
+    line-height: 44px;
+    /* margin-left: 9vw; */
+    margin-top: 15vh;
+    letter-spacing: 0.0038em;
+}
+
+.team-content p {
+    font-size: 24px;
+    line-height: 120%;
+    color: #162949;
+    margin-top: 3vh;
+    /* margin-left: 9.2vw; */
+}
+
+.active-nav {
+    border-bottom: 1px solid white;
+}
+
+.box {
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+    margin-top: 4vh;
+    transition: 0.5s;
+    padding: 7% 10%;
+
+}
+
+.box:hover {
+    border: 1px solid grey;
+    transform: scale(1.01);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+
+.card-title {
+    color: #131313;
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+    color: #131313;
+}
+
+.card-img-top {
+    width: 80%;
+    margin-top: 2vh;
+    border-radius: 50%;
+
+}
+
+.con {
+    /* align-items: center;
+    padding: 2px;
+    margin-top: 1vh;
+    margin-left: 3vw;
+     */
+    width: 50%;
+}
+
+/* CSS FOR ALUM */
+
+.alumini-content h1 {
+    font-size: 48px;
+    line-height: 44px;
+    /* margin-left: 9vw; */
+    margin-top: 15vh;
+    letter-spacing: 0.0038em;
+}
+
+.a2019 {
+    display: none;
+}
+
+.a2018 {
+    display: none;
+}
+
+.alumini-content p {
+    font-size: 24px;
+    line-height: 120%;
+    color: #162949;
+    margin-top: 3vh;
+    /* margin-left: 9.2vw; */
+}
+
+.box-alumini {
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    margin-top: 4vh;
+    padding: 0% !important;
+    transition: 0.5s;
+
+}
+
+.box-alumini:hover {
+    border: 1px solid grey;
+    transform: scale(1.01);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+
+.card-title-alumini {
+    text-align: left;
+    color: #131313;
+    position: relative;
+    top: 0.5vh;
+}
+
+.alum-con {
+    width: 50%;
+    /* text-align: right; */
+
+
+}
+
+.alum {
+    width: 100%;
+}
+
+
+.btn-secondary {
+    background: white !important;
+    color: #162949 !important;
+    box-shadow: 0% !important;
+
+}
+
+.btn-secondary:hover {
+    background: white !important;
+    color: #162949 !important;
+    box-shadow: 0% !important;
+}
+
+.btn-secondary:active {
+    background: white !important;
+    color: #162949 !important;
+    box-shadow: 0% !important;
+    transition: 100s;
+
+}
+
+.dropdown-item:hover {
+    background-color: #E6E6E6;
+    color: black;
+}
+
+.dropdown-item:active {
+    background-color: #E6E6E6;
+    color: black;
+}
+
+.carousel-indicators>li {
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    background-color: white !important;
+    border: solid 2px black;
+}
+
+.carousel-item {
+    text-transform: uppercase;
+    font-size: 32px;
+    color: black;
+    margin-bottom: 5%;
+    font-weight: bold;
+}
+
+
+
+
+
+
+@media (max-width:750px) {
+    .carousel-item {
+        margin-bottom: 10%;
+    }
+
+    .font1 {
+        font-size: 32px;
+    }
+
+    .font2 {
+        font-size: 16px;
+        ;
+    }
+
+    .cent {
+        text-align: center;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .social {
+        padding: 0 30vw;
+        padding-top: 2vh;
+    }
+
+    .marg {
+        margin-bottom: 2vh;
+    }
+
+    .top-img {
+        width: 60% !important;
+    }
+
+    .tab {
+
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    .menu {
+        font-size: 12px !important;
+    }
+
+    .vision1 {
+        left: -12px;
+    }
+
+    .tab .active a {
+        border-bottom: 0px solid #131313;
+        transition: 0.3s;
+    }
+
+    .tab a:hover {
+        border-bottom: 0px solid #131313;
+        transition: 0.3s;
+    }
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    
+    background-color: transparent;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:  linear-gradient(93.98deg, #131313 -20.24%, #162949 100%);
+    border-radius: 5px;
+  }
