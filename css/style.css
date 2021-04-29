@@ -8,6 +8,16 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'GT Walsheim Pro';
+    src: local('GT Walsheim Pro Regular'), local('GT-Walsheim-Pro-Regular'),
+        url('../font/GTWalsheimProRegular.woff2') format('woff2'),
+        url('../font/GTWalsheimProRegular.woff') format('woff'),
+        url('../font/GTWalsheimProRegular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
 body {
     color: white !important;
     font-family: GT Walsheim Pro;
@@ -175,9 +185,12 @@ position: relative;
 .know {
     background: #FFFFFF;
     border-radius: 2px;
-    width: 114px;
-    height: 34px;
+    border: none!important;
+    width: fit-content;
+    height: fit-content;
     font-size: 18px;
+    padding: 5px 10px;
+    margin-bottom: 2vh;
 }
 
 /* .modal{
