@@ -267,6 +267,10 @@ position: relative;
     .hl-links {
         font-size: 12px;
     }
+    .top {
+        text-align: center;
+        padding: 10vh 10vw;
+    }
 
 }
 

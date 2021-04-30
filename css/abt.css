@@ -341,6 +341,10 @@ nav {
         border-bottom: 0px solid #131313;
         transition: 0.3s;
     }
+    .top {
+        text-align: center;
+        padding: 10vh 10vw;
+    }
 
 }
 
