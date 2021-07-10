@@ -58,7 +58,7 @@ a {
 
 .top {
     text-align: center;
-    padding: 10vh 25vw;
+    padding: 17vh 25vw 10vh;
 }
 
 .content {
@@ -269,7 +269,7 @@ position: relative;
     }
     .top {
         text-align: center;
-        padding: 10vh 10vw;
+        padding: 17vh 10vw 10vh;
     }
 
 }

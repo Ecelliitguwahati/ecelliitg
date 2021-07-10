@@ -51,8 +51,9 @@ html {
 }
 
 .blue-top {
-    padding: 10% 0 0 8vw;
-    margin-bottom: 20vh;
+    padding: 15% 0 0 8vw;
+    margin-top: 0vh;
+    margin-bottom: 10vh;
 }
 
 .home-img {
@@ -67,6 +68,7 @@ body {
 }
 
 .head {
+    
     background: linear-gradient(93.98deg, #131313 -20.24%, #162949 100%) !important;
 }
 
@@ -225,6 +227,7 @@ a {
     }
 
     .blue-top {
+        margin-top: 10vh;
         margin-bottom: 5vh;
     }
 
