@@ -184,6 +184,7 @@ nav {
     margin-top: 15vh;
     letter-spacing: 0.0038em;
 }
+
 .a2020 {
     display: none;
 }
@@ -198,7 +199,9 @@ nav {
 .a2018 {
     display: none;
 }
-
+.a2021 {
+    display: none;
+}
 .alumini-content p {
     font-size: 24px;
     line-height: 120%;
