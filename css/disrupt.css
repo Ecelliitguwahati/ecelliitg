@@ -61,7 +61,7 @@ footer{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-transform: uppercase; 
+    /* text-transform: uppercase;  */
   }
 .label{
     color: rgba(255, 255, 255, 0.70);
