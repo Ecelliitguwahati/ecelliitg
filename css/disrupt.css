@@ -1,7 +1,7 @@
 body{
     background-color: #1E1E1E;
     color: white;
-   
+   margin: 0px;
 }
 footer{
     max-width: 100%;
@@ -12,8 +12,20 @@ footer{
 }
 .Contact{
     display: flex;
-    justify-content:end  ;
+    /* justify-content:end; */
+    width: 40%;
 }
+
+.Contact p span{
+    padding-bottom: 10%;
+}
+
+.social_media{
+    width: 60%;
+    display: flex;
+    justify-content: end;
+}
+
 .signup{
     max-width: 100%;
     display: flex;
@@ -22,6 +34,9 @@ footer{
     margin-bottom: 10%;
 }
 
+.signup-btn{
+    margin-top: 10%;
+}
 
 .register{
     border: 3.6px #F4CA76 solid;
@@ -179,16 +194,16 @@ height: 16%;
     width:auto;
 }
 #backgroundtopleft{
-    width:68.00%;
+    width:75%;
 }
 #backgroundtopright2{
     
     background-size:cover;
     width:49.6%;
     top:-5%;
-    height:140%;
+    height:120%;
     position:relative;
-    left:3.3%;
+    right: 0;
     z-index:0;
 }
 #backgroundtopleftheading{
@@ -225,19 +240,19 @@ height: 16%;
     top:29.5%;
     left:18%;
     right:20%;
-    width:90.08%;
+    width:100%;
     color: #FFF;
     font-family: 'Sora', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 180%;
-    padding-right:10%;
+    /* padding-right:10%; */
 }
 #leftrightseparator{
     color:#FFFFFF;
     position:relative;
-    margin-right:2%;
+    margin:0 4%;
     left:10%;
     top:12%;
     height:150%;
@@ -492,10 +507,7 @@ height: 16%;
    
      gap:10px;
    }
-   .ecellogo{
-   height:50px;
-   width:50px;
-   }
+
    .ecellsignpara{
      line-height:25px;
    }
@@ -542,8 +554,9 @@ height: 16%;
    
    .disruptimage{
      width:100%;
+     right: 0;
    height:95%;
-  margin-left:4%;
+  /* margin-left:4%; */
    margin-top:-114%;
    z-index:10;
    position:relative;
@@ -553,7 +566,7 @@ height: 16%;
 
 position:absolute;
 top:450px;
-left:60%;
+right: 0px;
 z-index:0;
 
 width:45%;
@@ -658,7 +671,10 @@ z-index:-1;
      opacity:0.5;
    }
    
-   
+   .signup1 a{
+    text-decoration: none;
+    color: black;
+   }
    
    
    
