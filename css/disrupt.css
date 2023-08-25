@@ -857,7 +857,7 @@ z-index:-1;
     }  */
 
     #backgroundtopright2{
-        height:74vh;
+        height:80vh;
         width:48vw;
         margin-top:23%;
         background-image:url(./image/Disrupt/timelinepng.png);
@@ -883,8 +883,8 @@ z-index:-1;
         visibility:hidden;
     }
     .video-container{
-        height:30vh;
-        width:60vw;
+        height:35vh;
+        width:70vw;
     } 
     .social_media{
         position:relative;
@@ -892,8 +892,9 @@ z-index:-1;
         margin-top:5%;
     }
     #backgroundtopright1{
+        margin-top:0;
         position:relative;
-        top:-80%;
+        top:-75%;
     }
     #websitefootercontactecelllogo{
         position:relative;
@@ -962,5 +963,12 @@ z-index:-1;
         width:30%;
         margin-right:8px;
     }
-   
+
+    #backgroundtopright1box1text3{
+        width:140px;
+    }
+    #backgroundtopright1box1text2{
+        width:120px;
+    }
+    
 }
