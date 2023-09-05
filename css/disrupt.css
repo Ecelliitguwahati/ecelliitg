@@ -734,22 +734,16 @@ z-index:-1;
     #startwaliimage{
         display:none;
     }
+    
     #signuptext{
         width:80%;
-    
+        text-align: start;
     }
     #signuptext1{
         font-size:30px;
-        position:relative;
-        left:14%;
+        /* position:relative; */
+        /* left:14%; */
         width:160%;
-    }
-    #signuptext2{
-        font-size:20px;
-        position:relative;
-        left:50%;
-        width:120%;
-        margin-left:30%;
     }
     #fname{
         position:relative;
@@ -774,7 +768,7 @@ z-index:-1;
     }
     #signuptext2{
         font-size:20px;
-        position:relative;
+        /* position:relative; */
         left:5%;
     }
     .register{
@@ -798,9 +792,7 @@ z-index:-1;
         margin-bottom:20%;
     }
     #startrightimage{
-        position:relative;
-        right:80%;
-        height:0%;
+        display: none;
     }
    #backgrounddots{
     margin-top:10vh;
