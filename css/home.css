@@ -60,6 +60,40 @@ html {
 
 }
 
+.disrupt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.disrupt div{
+    width: 100%;
+    margin: 5vh;
+}
+
+.disrupt button{
+    background: #162949;
+    border-radius: 2px;
+    border: 2px solid #162949;
+    color: #FFFFFF;
+    width: fit-content;
+    height: fit-content;
+    font-size: 18px;
+    padding: 5px 10px;
+    margin-bottom: 2vh;
+    cursor: pointer;
+}
+
+.disrupt a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 2vh;
+    padding: 0 2vw;
+}
+
 body {
     color: white !important;
     font-family: GT Walsheim Pro;
@@ -156,6 +190,11 @@ a {
 
 .font3 {
     color: #162949;
+}
+
+.font4 {
+    font-size: 32px;
+    font-weight: 400;
 }
 
 .pointer {
