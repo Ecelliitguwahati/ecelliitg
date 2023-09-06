@@ -718,6 +718,10 @@ z-index:-1;
     margin-bottom:5%;
    }
 
+   .mobile-form{
+         display:none;
+   }
+
    /* added media queries */
 
    
@@ -748,6 +752,15 @@ z-index:-1;
         /* left:14%; */
         width:160%;
     }
+
+    .mobile-form{
+        display:block;
+    }
+
+    .details{
+        display: none;
+    }
+
     #fname{
         position:relative;
         top:-20%;
