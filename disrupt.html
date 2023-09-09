@@ -22,7 +22,34 @@
 </head>
 
 <body>
+    <!-- loader starts -->
+    <div class="loader">
+        <div class="sqrow">
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+        <div class="sqrow">
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+    </div>
+    <script>
+        window.addEventListener("load",()=>{
+            const loader=document.querySelector(".loader");
+            loader.classList.add("loader-hidden");
 
+
+        setTimeout(() => {
+        loader.remove();
+        }, 1000);
+
+
+        //     loader.addEventListener("transitionend",()=>{
+        //         loader.remove();
+        //     })
+         })
+    </script>
+    <!-- loader ends -->
 
     <div class="firstpage" style="background-image: url('./image/Disrupt/dots1.png')" ;>
         <div class="header1">
