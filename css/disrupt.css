@@ -21,8 +21,12 @@
 .loader-hidden{
     transform:scale(0);
     opacity: 0;
-    visibility:hidden; 
+    display: none;
 
+}
+
+.hidden{
+    display: none;
 }
 
 .square{
@@ -49,6 +53,51 @@
 
 /* loader end */
 
+#p1Top{
+    display:flex;
+    padding:15px 20px 15px 20px;
+}
+#p1TopLogo{
+    display:flex;
+}
+#p1TopLogoLogo{
+    width:168px;
+    height:70px;
+    background-image:url(../DisruptTimelineWebPage/p1ecellLogo.svg);
+    background-size:cover;
+    margin-right:15px;
+}
+#p1TopLogoLine{
+    background-image:url(../DisruptTimelineWebPage/p1LogoLine.svg);
+    background-size:cover;
+    height:70px;
+    width:2px;
+}
+#p1TopLogoVector{
+    background-image:url(../DisruptTimelineWebPage/p1logoVector.svg);
+    background-size:cover;
+    height:60px;
+    width:58px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-top:5px;
+}
+#p1TopBar{
+    margin-left:23%;
+    width:50%;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.p1TopBarElement{
+    color: var(--d-9-d-9-d-9, #F1E7FF);
+    font-family: 'Sora',sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
 
 html{
     scroll-behavior: smooth;

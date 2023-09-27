@@ -37,7 +37,8 @@
         window.addEventListener("load",()=>{
             const loader=document.querySelector(".loader");
             loader.classList.add("loader-hidden");
-
+            const page=document.querySelector(".page");
+            page.classList.remove("hidden");
 
         setTimeout(() => {
         loader.remove();
@@ -50,11 +51,21 @@
          })
     </script>
     <!-- loader ends -->
+    <div class="page hidden">
 
-    <div class="firstpage" style="background-image: url('./image/Disrupt/dots1.png')" ;>
-        <div class="header1">
-            <img class="logo" src="./image/Disrupt/Vector alpha.png">
-
+        <div id="p1Top">
+            <div id="p1TopLogo">
+                <div id="p1TopLogoLogo"></div>
+                <div id="p1TopLogoLine"></div>
+                <div id="p1TopLogoVector"></div>
+            </div>
+            <div id="p1TopBar">
+                <a href="../disrupt.html" class="p1TopBarElement">Home</a>
+                <a href="./DisruptTimelineWebPage/timeline.html" class="p1TopBarElement">Structure</a>
+                <a href="#" class="p1TopBarElement">Tracks</a>
+                <a href="#" class="p1TopBarElement">Sponsors</a>
+                <a href="#" class="p1TopBarElement">Incentives</a>
+            </div>
         </div>
 
         <div class="frame">
@@ -455,6 +466,7 @@
         </footer>
     </div>
 
+    </div>
     <script>
         window.smoothScroll = function(target) {
             var scrollContainer = target;
