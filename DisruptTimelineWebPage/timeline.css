@@ -644,7 +644,7 @@ body{
     }
 
     #background{
-        height: 560vh;
+        /* height: 560vh; */
     }
     #p1MiddleBottom{
         margin-left:-20px;
@@ -771,7 +771,7 @@ body{
         margin-left:15%;
     }
     #p4backgroundvector{
-        top:360%;
+        /* top:360%; */
         left:52%;
         height:323px;
         width:375px;
@@ -787,7 +787,7 @@ body{
         display:none;
     }
     #p5right{
-        top:420%;
+        /* top:420%; */
     }
     #p5rightHead{
        margin-left:40%;
@@ -810,7 +810,7 @@ body{
         display:none;
     }
     #p6bottom{
-        margin-top: 680%;
+        /* margin-top: 680%; */
     }
     #p6bottomLogo{
         margin-left:100px;
