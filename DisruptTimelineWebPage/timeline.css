@@ -2,7 +2,7 @@
     margin:none;
     border:none;
     padding:none;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 body{
     margin: 0;
