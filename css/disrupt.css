@@ -56,6 +56,7 @@
 
 #p1Top{
     display:flex;
+    justify-content: space-between;
     padding:15px 20px 15px 20px;
 }
 #p1TopLogo{
@@ -84,8 +85,9 @@
     margin-top:5px;
 }
 #p1TopBar{
-    margin-left:23%;
-    width:50%;
+    /* margin-left:15%; */
+    padding-right: 10%;
+    /* width:50%; */
     display:flex;
     justify-content: end;
     align-items:center;
@@ -98,7 +100,16 @@
     font-weight: 400;
     line-height: normal;
     text-decoration: none;
-    padding: 2%;
+    padding: 10px;
+    border: 2px solid #F1E7FF;
+    border-radius: 8px;
+    z-index: 100;
+}
+
+.p1TopBarElement:hover{
+    background-color: #F1E7FF;
+    color: #1E1E1E;
+    transition: 0.5s;
 }
 
 html{
@@ -678,12 +689,12 @@ height: 16%;
    .disruptimage{
      width:100%;
      right: 0;
-   height:95%;
+   height:100%;
   /* margin-left:4%; */
-   margin-top:-114%;
+   margin-top:10%;
    z-index:10;
-   position:relative;
-   
+   position:absolute;
+
    }
    .Group_29{
 
@@ -854,6 +865,14 @@ z-index:-1;
 
    
  @media only screen and (max-width: 600px){
+
+    #p1TopBar{
+        padding: 0;
+    }
+    .p1TopBarElement{
+        font-size: 14px;
+        padding: 5px;
+    }
    
     .frame2{
         

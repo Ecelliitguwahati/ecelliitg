@@ -4,11 +4,14 @@
     padding:none;
     overflow-x: none;
 }
+body{
+    margin: 0;
+}
 #background{
     background-color:rgb(34, 34, 34);
     background-image:url(backgroundtrue.png);
     height:700vh;
-    width:100vw;
+    /* width:100vw; */
     overflow-x: none;
 }
 #p1{
@@ -17,6 +20,7 @@
 }
 #p1Top{
     display:flex;
+    justify-content: space-between;
     padding:15px 20px 15px 20px;
 }
 #p1TopLogo{
@@ -45,8 +49,9 @@
     margin-top:5px;
 }
 #p1TopBar{
-    margin-left:23%;
-    width:50%;
+    /* margin-left:23%; */
+    padding-right: 10%;
+    /* width:50%; */
     display:flex;
     justify-content: end;
     align-items:center;
@@ -59,7 +64,15 @@
     font-weight: 400;
     line-height: normal;
     text-decoration: none;
-    padding: 2%;
+    padding: 10px;
+    border: 2px solid #F1E7FF;
+    border-radius: 8px;
+}
+
+.p1TopBarElement:hover{
+    background-color: #F1E7FF;
+    color: #1E1E1E;
+    transition: 0.5s;
 }
 #p1Middle{
     position:absolute;
@@ -537,7 +550,7 @@
     height:170px;
     display:flex;
     align-items:center;
-    width:100vw;
+    /* width:100vw; */
 }
 #p6bottomLogo{
     display:flex;
@@ -622,6 +635,13 @@
 }
 
 @media only screen and (max-width: 760px){
+    #p1TopBar{
+        padding: 0;
+    }
+    .p1TopBarElement{
+        font-size: 14px;
+        padding: 5px;
+    }
 
     #background{
         height: 560vh;
@@ -790,7 +810,7 @@
         display:none;
     }
     #p6bottom{
-        margin-top: 800%;
+        margin-top: 680%;
     }
     #p6bottomLogo{
         margin-left:100px;
