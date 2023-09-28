@@ -373,10 +373,15 @@ body{
 #p3Body2Text{
     position:relative;
     left:50%;
+    width: 50%;
+}
+#p3Body2TextBody{
+    width: 100%;
 }
 #p3Body2TextHead{
     position:relative;
     left:22%;
+    width: 50%;
 }
 #p3Body3{
     margin-top:60px;
@@ -394,10 +399,15 @@ body{
 #p3Body4{
     position:relative;
     left:40%;
+    width: 50%;
 }
 #p3Body4TextHead{
     position:relative;
     left:18%;
+    width: 70%;
+}
+#p3Body4TextBody{
+    width: 100%;
 }
 #p3rv1{
     background-image:url(p3b1.svg);
@@ -752,8 +762,22 @@ body{
         margin-left:-28%;
         width:80%;
     }
+    #p3Body2Text{
+        margin-left:0%;
+        width:100%;
+
+    }
+    #p3Body2TextHead{
+        margin-left:0%;
+        width:100%;
+    }
+    #p3Body2TextBody{
+        margin-left:0%;
+        width:100%;
+    }
     #p3Body3TextBody{
-        margin-left:15%;
+        width:80%;
+
     }
     #p3Body4{
         margin-left:-30%;
@@ -761,6 +785,7 @@ body{
     }
     #p3Body4TextBody{
         text-align:center;
+        width:80%;
     }
     #p3Body4TextHead{
         margin-left:-10%;
