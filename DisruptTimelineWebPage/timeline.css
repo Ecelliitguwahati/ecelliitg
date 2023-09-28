@@ -2,17 +2,18 @@
     margin:none;
     border:none;
     padding:none;
-    overflow-x: none;
+    overflow-x: hidden;
 }
 body{
     margin: 0;
+
 }
 #background{
     background-color:rgb(34, 34, 34);
     background-image:url(backgroundtrue.png);
     height:700vh;
     /* width:100vw; */
-    overflow-x: none;
+    overflow-x: hidden;
 }
 #p1{
     height:11.11%;
@@ -122,7 +123,7 @@ body{
     display:flex;
 }
 #p1MiddleBottomText2{
-    margin-top:-40px;
+    /* margin-top:-40px;     */
     color: var(--d-9-d-9-d-9, #F1E7FF);
     font-family: 'Momcake',sans-serif;
     font-size: 120px;
