@@ -1171,3 +1171,50 @@ z-index:-1;
     margin-top: 10%;
     margin-bottom: 10%;
 }
+
+/* Sponsors */
+
+.sponsors__content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    flex-wrap: wrap;
+}
+
+.sponsors img{
+    width: 100%;
+}
+
+.sponsors__heading h1{
+    font-family: 'Sora',sans-serif;
+    font-size: 40.467px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 5%;
+}
+
+.sponsors__content__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+    padding: 5%;
+}
+
+.sponsors__content__item__name {
+    font-family: 'Sora',sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 5%;
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1, user-scalable=no">
+    <meta property="og:title" content="DISRUPT">
+    <meta property="og:image" content="./image/Disrupt/Vector alpha.png">
+    <meta property="og:description"
+        content="This is the official website of Disrupt, conducted by E-Cell IIT Guwahati.">
+    <meta property="og:url" content="https://www.ecelliitg.in/disrupt">
+    <title>Disrupt</title>
+    <link rel="stylesheet" href="./css/disrupt.css">
+    <link href="https://fonts.cdnfonts.com/css/momcake" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://db.onlinewebfonts.com/c/1ae708f6b2b336af5952381670bff41f?family=Momcake+Bold" rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/756fd423acbb448c0f0a63d7f2f1b5e9?family=Momcake+Thin" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Nunito:wght@300&family=Poppins:wght@300&family=Rubik:wght@700&family=Sora:wght@300;400&family=Ubuntu&family=VT323&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="./image/Disrupt/Vector alpha.png" type="image/gif" sizes="16x16">
+</head>
+
+<body>
+    <!-- loader starts -->
+    <!-- <div class="loader">
+        <div class="sqrow">
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+        <div class="sqrow">
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+    </div> -->
+    <!-- <script>
+        window.addEventListener("load",()=>{
+            const loader=document.querySelector(".loader");
+            loader.classList.add("loader-hidden");
+            const page=document.querySelector(".page");
+            page.classList.remove("hidden");
+
+        // setTimeout(() => {
+        // loader.remove();
+        // }, 1000);
+
+
+        //     loader.addEventListener("transitionend",()=>{
+        //         loader.remove();
+        //     })
+         })
+    </script> -->
+    <!-- loader ends -->
+    <div class="page"  style="background-image: url(./image/Disrupt/bg.png);">
+
+        <div id="p1Top">
+            <div id="p1TopLogo">
+                <div id="p1TopLogoLogo"></div>
+                <div id="p1TopLogoLine"></div>
+                <div id="p1TopLogoVector"></div>
+            </div>
+            <div id="p1TopBar">
+                <!-- <a href="../disrupt.html" class="p1TopBarElement">Home</a> -->
+                <span>
+                    <a href="/disrupt.html" class="p1TopBarElement">Home</a>
+                    <a href="./DisruptTimelineWebPage/timeline.html" class="p1TopBarElement">Structure</a>
+                    <a href="./disrupt_sponsors.html" class="p1TopBarElement">Sponsors</a>
+                </span>
+                <!-- <a href="#" class="p1TopBarElement">Tracks</a>
+                <a href="#" class="p1TopBarElement">Sponsors</a>
+                <a href="#" class="p1TopBarElement">Incentives</a> -->
+            </div>
+        </div>
+
+        <div class="sponsors">
+            <div class="sponsors__heading">
+                <h1>Our Sponsors</h1>
+            </div>
+            <div class="sponsors__content">
+                <div class="sponsors__content__item">
+                    <div class="sponsors__content__item__img">
+                        <img src="./image/Disrupt/sponsors/alsisar.png" alt="">
+                    </div>
+                    <div class="sponsors__content__item__name">
+                        <h2>Alsisar Impact</h2>
+                    </div>
+                </div>
+                <div class="sponsors__content__item">
+                    <div class="sponsors__content__item__img">
+                        <img src="./image/Disrupt/sponsors/chandigarh angels.jpeg" alt="">
+                    </div>
+                    <div class="sponsors__content__item__name">
+                        <h2>Chandigarh Angels</h2>
+                    </div>
+                </div>
+                <div class="sponsors__content__item">
+                    <div class="sponsors__content__item__img">
+                        <img src="./image/Disrupt/sponsors/delhi startups club.jpeg" alt="">
+                    </div>
+                    <div class="sponsors__content__item__name">
+                        <h2>Delhi Startups Club</h2>
+                    </div>
+                </div>
+                <div class="sponsors__content__item">
+                    <div class="sponsors__content__item__img">
+                        <img src="./image/Disrupt/sponsors/jiif.jpeg" alt="">
+                    </div>
+                    <div class="sponsors__content__item__name">
+                        <h2>JIIF</h2>
+                    </div>
+                </div>
+                <div class="sponsors__content__item">
+                    <div class="sponsors__content__item__img">
+                        <img src="./image/Disrupt/sponsors/starters cfo.jpeg" alt="">
+                    </div>
+                    <div class="sponsors__content__item__name">
+                        <h2>Starters CFO</h2>
+                    </div>
+                </div>
+                <div class="sponsors__content__item">
+                    <div class="sponsors__content__item__img">
+                        <img src="./image/Disrupt/sponsors/startup connect.png" alt="">
+                    </div>
+                    <div class="sponsors__content__item__name">
+                        <h2>Startup Connect North East</h2>
+                    </div>
+                </div>
+                <div class="sponsors__content__item">
+                    <div class="sponsors__content__item__img">
+                        <img src="./image/Disrupt/sponsors/startup lab.png" alt="">
+                    </div>
+                    <div class="sponsors__content__item__name">
+                        <h2>The Startup Lab</h2>
+                    </div>
+                </div>
+        </div>
+    </div>
+        
+    <script>
+        window.smoothScroll = function(target) {
+            var scrollContainer = target;
+            do { //find scroll container
+                scrollContainer = scrollContainer.parentNode;
+                if (!scrollContainer) return;
+                scrollContainer.scrollTop += 1;
+            } while (scrollContainer.scrollTop == 0);
+
+            var targetY = 0;
+            do { //find the top of target relatively to the container
+                if (target == scrollContainer) break;
+                targetY += target.offsetTop;
+            } while (target = target.offsetParent);
+
+            scroll = function(c, a, b, i) {
+                i++; if (i > 30) return;
+                c.scrollTop = a + (b - a) / 30 * i;
+                setTimeout(function(){ scroll(c, a, b, i); }, 20);
+            }
+            // start scrolling
+            scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
+        }
+    </script>
+
+    <script type="text/javascript">
+        document.getElementById("formbtn").onclick = function () {
+            location.href = "https://form.jotform.com/232465470119455";
+        };
+    </script>
+</body>
+    
+        
+</html>
