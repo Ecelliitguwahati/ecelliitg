@@ -766,6 +766,12 @@ footer{
     font-size: 1.2vw;
 }
 
+.f-part-3 a{
+    color: white;
+    text-decoration: none;
+    
+}
+
 .f-follow-us{
     color: white;
     margin-top: 4vw;
