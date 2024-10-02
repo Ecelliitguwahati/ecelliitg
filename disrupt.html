@@ -1,396 +1,491 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1, user-scalable=no">
-    <meta property="og:title" content="DISRUPT">
-    <meta property="og:image" content="./image/Disrupt/Vector alpha.png">
-    <meta property="og:description"
-        content="This is the official website of Disrupt, conducted by E-Cell IIT Guwahati.">
-    <meta property="og:url" content="https://www.ecelliitg.in/disrupt">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Disrupt</title>
-    <link rel="stylesheet" href="./css/disrupt.css">
-    <link href="https://fonts.cdnfonts.com/css/momcake" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://db.onlinewebfonts.com/c/1ae708f6b2b336af5952381670bff41f?family=Momcake+Bold" rel="stylesheet">
-    <link href="https://db.onlinewebfonts.com/c/756fd423acbb448c0f0a63d7f2f1b5e9?family=Momcake+Thin" rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Nunito:wght@300&family=Poppins:wght@300&family=Rubik:wght@700&family=Sora:wght@300;400&family=Ubuntu&family=VT323&display=swap"
-        rel="stylesheet">
-    <link rel="icon" href="./image/Disrupt/Vector alpha.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="disrupt_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <style type="text/css">
+        @font-face {
+            font-family: "Coolvetica";
+            src: url(https://www.dafont.com/coolvetica.font) format("truetype");
+        }
+        p.customfont { 
+            font-family: "Coolvetica";
+        }
+    </style>
 </head>
 
 <body>
-    <!-- loader starts -->
-    <div class="loader">
-        <div class="sqrow">
-            <div class="square"></div>
-            <div class="square"></div>
-        </div>
-        <div class="sqrow">
-            <div class="square"></div>
-            <div class="square"></div>
-        </div>
-    </div>
-    <script>
-        window.addEventListener("load",()=>{
-            const loader=document.querySelector(".loader");
-            loader.classList.add("loader-hidden");
-            const page=document.querySelector(".page");
-            page.classList.remove("hidden");
-
-        // setTimeout(() => {
-        // loader.remove();
-        // }, 1000);
-
-
-        //     loader.addEventListener("transitionend",()=>{
-        //         loader.remove();
-        //     })
-         })
-    </script>
-    <!-- loader ends -->
-    <div class="page hidden"  style="background-image: url(./image/Disrupt/bg.png);">
-
-        <div id="p1Top">
-            <div id="p1TopLogo">
-                <div id="p1TopLogoLogo"></div>
-                <div id="p1TopLogoLine"></div>
-                <div id="p1TopLogoVector"></div>
+    <nav>
+        <div class="nav-logo">
+            <div class="d-shape">
+                <img src="assets/D-shape.png" alt="">
             </div>
-            <div id="p1TopBar">
-                <!-- <a href="../disrupt.html" class="p1TopBarElement">Home</a> -->
-                <span>
-                    <a href="/disrupt.html" class="p1TopBarElement">Home</a>
-                    <a href="./DisruptTimelineWebPage/timeline.html" class="p1TopBarElement">Structure</a>
-                    <a href="./disrupt_sponsors.html" class="p1TopBarElement">Sponsors</a>
-                </span>
-                <!-- <a href="#" class="p1TopBarElement">Tracks</a>
-                <a href="#" class="p1TopBarElement">Sponsors</a>
-                <a href="#" class="p1TopBarElement">Incentives</a> -->
+            <a href="https://www.ecelliitg.in/" class="e-cell-logo-nav">
+                <img src="assets/e-cell-nav.png" alt="">
+            </a>
+        </div>
+        <div class="nav-items">
+            <ul>
+                <li class="hover"><a class="active" href="./disrupt.html">Home</a></li>
+                <li class="hover"><a href="./disrupt_timeline.html">Timeline</a></li>
+                <li class="hover"><a href="#about"> About</a></li>
+                <li class="hover"><a href="#contactUs"> Contact us </a></li>
+            </ul>
+        </div>
+
+        <div class="nav-register">
+            <a href="https://unstop.com/p/disrupt25-empowering-startups-for-rapid-growth-disrupt25-iit-guwahati-1138737" target="_blank"><button>Register Now</button></a>
+        </div>
+    </nav>
+
+    <div class="desrupt-ui">
+
+        <div class="dream-dare-disrupt">
+            <div class="text-dream">
+                <p>Dream.</p>
+                <p>Dare.</p>
+                <p class="bg-blue">Disrupt.</p>
+            </div>
+            <div class="para-dream">
+                <p>Northeast India’s Largest Startup Bootcamp by E-Cell, IITG </p>
+                <p> Mentoring startups throughout the nation</p>
+            </div>
+            <div class="dream-register">
+                <a href="https://unstop.com/p/disrupt25-empowering-startups-for-rapid-growth-disrupt25-iit-guwahati-1138737" target="_blank"><button>Register Now</button></a>
+            </div>
+
+            <div class="disrupt-img">
+                <img src="assets/disrupt1.png" alt="disrupt">
             </div>
         </div>
 
-        <div class="frame">
-            <div class="frame1">
-
-                <div class="para">
-
-                    <div class="twop">
-                        DREAM
-                    </div>
-                    <div class="threep">
-                        DARE
-                    </div>
-                    <div class="fourp">
-                        DISRUPT
-                    </div>
-
+        <div class="info-startup">
+            <div class="startup-helped-1">
+                <div class="home-text">
+                    <p>50+</p>
                 </div>
-                <div class="ecellsign">
-                    <div class="presented">
-                        PRESENTED TO YOU BY
-                    </div>
-
-                    <div class="sign1">
-                        <img class="ecellogo" src="./image/Disrupt/logo.png">
-                        <p class="ecellsignpara">
-                            E-CELL<br>
-                            IIT GUWAHATI
-                        </p>
-                    </div>
-                    <a href="https://forms.gle/2zFbB3vrMs7cfiEYA" target="_blank">
-                        <button class="signup1" onclick="location.href = 'https://forms.gle/2zFbB3vrMs7cfiEYA';">
-
-                            <a href="https://forms.gle/2zFbB3vrMs7cfiEYA" target="_blank">REGISTER</a>
-
-                        </button>
-                    </a>
-
+                <div class="startup-helped bg-blue">
+                    Startup
                 </div>
-
             </div>
-            <div class="frame2">
-                <div class="imag">
-                <div class="framediv">
-
-                    <img class="blast" src="./image/Disrupt/Vector 14.png">
-                    <img class="disruptimage" src="./image/Disrupt/Subtract.png">
-
+            <div class="startup-helped-2">
+                <div class="home-text">
+                    <!-- <img src="assets/home.png" alt="home"> -->
+                    <p>&#8377;70 lakh+</p>
                 </div>
-
-                <img class="Group_31" src="./image/Disrupt/Group 31.png">
-                <img class="Group_29" src="./image/Disrupt/Group 29.png">
-                <img class="Group_25" src="./image/Disrupt/Group 25.png">
-                <img class="Group251" src="./image/Disrupt/Group 25(1).png">
-                <img class="Group_34" src="./image/Disrupt/Group 34.png">
-
-                <img class="Group341" src="./image/Disrupt/Group 34(1).png">
-                <img class="Vector21" src="./image/Disrupt/Vector(2).png">
-                <img class="Vector311" src="./image/Disrupt/Vector(3).png">
-                <img class="Vector41" src="./image/Disrupt/Vector(4).png">
-                <img class="Vector51" src="./image/Disrupt/Vector(5).png">
-                <img class="Vector30" src="./image/Disrupt/Vector 30.png">
-                <img class="Vector31" src="./image/Disrupt/vector  31.png">
+                <div class="startup-helped bg-blue">
+                offered
+                </div>
             </div>
-        </div>
-
-
-
-
-        </div>
-        <!-- first page end -->
-        <div style="background-image: url(./image/Disrupt/bg.png);">
-        <div class="container">
-            <div class="image-container">
-
-                <svg class="union" xlms="http://www.w3.org/2000/svg" viewBox="0 0 1225 934" fill="none">
-                    <path
-                        d="M429.6 0H261.6C245.805 0 233 12.8047 233 28.6C233 43.2449 244.007 55.3188 258.2 57H257.6C257.822 57 258.044 57.0025 258.265 57.0076C259.143 57.1096 260.034 57.1719 260.936 57.1924C275.159 58.8446 286.2 70.933 286.2 85.6C286.2 99.0711 276.887 110.367 264.347 113.399L29.4 113.399C13.6047 113.399 0.800049 126.204 0.800049 141.999C0.800049 157.795 13.6047 170.599 29.4 170.599L131.453 170.599C144.441 173.3 154.2 184.811 154.2 198.6C154.2 210.49 146.945 220.685 136.619 225H132.9C117.105 225 104.3 237.805 104.3 253.6C104.3 269.395 117.105 282.2 132.9 282.2L449 282.2C463.193 283.881 474.2 295.955 474.2 310.6C474.2 325.245 463.193 337.319 449 339L91.6 339C75.8047 339 63.0001 351.805 63.0001 367.6C63.0001 383.395 75.8047 396.2 91.6 396.2L1196 396.2C1211.8 396.2 1224.6 383.396 1224.6 367.6C1224.6 351.805 1211.8 339 1196 339H1107.2C1093.01 337.319 1082 325.245 1082 310.6C1082 295.955 1093.01 283.881 1107.2 282.2H1135C1150.8 282.2 1163.6 269.395 1163.6 253.6C1163.6 237.805 1150.8 225 1135 225H397.981C387.656 220.685 380.4 210.49 380.4 198.6C380.4 184.811 390.159 173.301 403.147 170.6L547 170.6C562.795 170.6 575.6 157.795 575.6 142C575.6 126.204 562.795 113.4 547 113.4L355.853 113.4C343.314 110.367 334 99.0711 334 85.6C334 70.9551 345.007 58.8812 359.2 57.2H429.6C445.395 57.2 458.2 44.3953 458.2 28.6C458.2 12.8047 445.395 0 429.6 0Z"
-                        fill="#D6B9FC" />
-                    <path
-                        d="M592.6 819.2C576.805 819.2 564 806.395 564 790.6C564 774.805 576.805 762 592.6 762H656C670.193 760.319 681.2 748.245 681.2 733.6C681.2 718.956 670.194 706.882 656.002 705.2L52 705.2C36.2047 705.2 23.4 692.395 23.4 676.6C23.4 660.805 36.2047 648 52 648L1011.2 648C1027 648 1039.8 660.805 1039.8 676.6C1039.8 692.396 1027 705.2 1011.2 705.2L833.197 705.2C819.006 706.883 808 718.956 808 733.6C808 748.245 819.008 760.319 833.201 762L1110.2 762C1126 762 1138.8 774.805 1138.8 790.6C1138.8 806.396 1126 819.2 1110.2 819.2L914.199 819.2C900.007 820.881 889 832.955 889 847.6C889 862.245 900.007 874.319 914.2 876H939.6C955.395 876 968.2 888.805 968.2 904.6C968.2 920.395 955.395 933.2 939.6 933.2H733.6C717.805 933.2 705 920.395 705 904.6C705 888.805 717.805 876 733.6 876H776C790.193 874.319 801.2 862.245 801.2 847.6C801.2 832.955 790.193 820.881 776 819.2L592.6 819.2Z"
-                        fill="#D6B9FC" />
-                </svg>
-
-                <svg class="vector1" xlms="http://www.w3.org/2000/svg" viewBox="0 0 69 111" fill="none">
-                    <path
-                        d="M5.81032 79.9073C12.3861 89.094 19.0257 98.2168 25.6334 107.34C26.3224 108.262 27.2356 108.993 28.2864 109.465C29.3373 109.936 30.4912 110.131 31.6387 110.032C32.7863 109.933 33.8894 109.543 34.8439 108.899C35.7984 108.255 36.5727 107.378 37.0933 106.351C38.6319 107.217 40.4506 107.442 42.1541 106.976C43.8576 106.51 45.3082 105.392 46.1908 103.863L61.3215 78.0891C65.3755 71.1671 71.4087 64.5961 67.9612 56.3983C63.6856 47.4923 58.9111 38.8341 53.6605 30.465C48.7446 21.576 43.818 12.6978 38.8809 3.83004C36.3272 -0.795203 29.8789 0.640093 27.5806 4.49978C17.6255 21.2772 9.31927 38.9783 2.77775 57.3552C-0.478235 66.5738 0.0644681 71.8689 5.81032 79.9073ZM17.7489 54.3887C22.2385 42.849 27.4629 31.6085 33.3903 20.7361L52.5431 55.3775C53.516 56.7651 54.34 58.2513 55.0011 59.8114C55.7673 62.459 55.001 63.0012 53.3092 65.585L47.6593 75.1545L34.6353 97.2919L20.4941 77.6744C18.2915 74.4845 14.1099 70.7845 13.7587 67.0205C13.4076 63.2565 16.3124 58.1845 17.685 54.5162L17.7489 54.3887Z"
-                        fill="white" />
-                </svg>
-                <svg class="vector2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 84 63" fill="none">
-                    <path
-                        d="M24.7041 4.76045L27.0027 20.6757C19.3516 23.0137 11.6954 25.3526 4.03402 27.6924C3.19965 27.8592 2.43844 28.2842 1.85663 28.908C1.27482 29.5319 0.901434 30.3234 0.788612 31.1722C0.696672 32.0342 0.891131 32.9033 1.34157 33.6436C1.79201 34.3838 2.47305 34.9536 3.2783 35.2638L30.1838 42.5636L32.6893 59.7226C33.2173 63.3736 39.2256 64.3873 40.1953 60.4872C41.396 55.7256 43.0542 51.0938 45.1464 46.6573L77.0205 55.2078C77.9917 55.549 79.0549 55.5049 79.9933 55.0846C80.9317 54.6642 81.6748 53.8993 82.0712 52.9455C82.4324 51.9701 82.398 50.89 81.9754 49.9381C81.5529 48.9862 80.776 48.2387 79.8123 47.8567L49.0117 39.4634C51.4262 35.4651 54.2055 31.7024 57.3136 28.2238C64.2776 33.4565 71.047 38.9506 77.622 44.706C78.4718 45.3043 79.52 45.5442 80.5418 45.3742C81.5637 45.2042 82.4778 44.6379 83.0881 43.7966C83.669 42.9387 83.8979 41.8875 83.7274 40.8621C83.5568 39.8368 82.9998 38.9163 82.1725 38.2927C75.9753 32.8366 69.563 27.6133 62.9355 22.6229C66.2002 19.6825 69.732 17.0569 73.4845 14.7803C74.3305 14.3665 75.0017 13.6627 75.3778 12.7949C75.754 11.9271 75.8105 10.9522 75.5372 10.0449C75.2754 9.13106 74.6868 8.34653 73.885 7.84258C73.0832 7.33862 72.1251 7.151 71.1954 7.31597L50.4963 13.5716C44.1095 9.13771 37.5856 4.89703 30.9245 0.849587C30.2854 0.383373 29.523 0.1194 28.735 0.0915593C27.9469 0.0637146 27.169 0.273237 26.501 0.693264C25.8329 1.11329 25.305 1.72471 24.9849 2.44927C24.6648 3.17384 24.567 3.97859 24.7041 4.76045ZM18.8367 31.3014C21.9477 30.3524 25.0459 29.4216 28.1415 28.4752L28.9568 34.0438C25.5877 33.1236 22.2152 32.2147 18.8393 31.317L18.8367 31.3014ZM41.0721 37.3329L37.1822 36.2704L35.712 26.1932C40.1379 24.8497 44.5485 23.5088 48.977 22.1809L50.9575 23.5931C47.2002 27.822 43.8883 32.4316 41.0747 37.3484L41.0721 37.3329ZM34.5834 18.3599L33.6283 11.856C35.9975 13.3792 38.3711 14.9284 40.7489 16.5034C38.6955 17.1327 36.642 17.7618 34.586 18.3755L34.5834 18.3599Z"
-                        fill="white" />
-                </svg>
-                <svg class="vector3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 84 63" fill="none">
-                    <path
-                        d="M24.7041 4.76045L27.0027 20.6757C19.3516 23.0137 11.6954 25.3526 4.03402 27.6924C3.19965 27.8592 2.43844 28.2842 1.85663 28.908C1.27482 29.5319 0.901434 30.3234 0.788612 31.1722C0.696672 32.0342 0.891131 32.9033 1.34157 33.6436C1.79201 34.3838 2.47305 34.9536 3.2783 35.2638L30.1838 42.5636L32.6893 59.7226C33.2173 63.3736 39.2256 64.3873 40.1953 60.4872C41.396 55.7256 43.0542 51.0938 45.1464 46.6573L77.0205 55.2078C77.9917 55.549 79.0549 55.5049 79.9933 55.0846C80.9317 54.6642 81.6748 53.8993 82.0712 52.9455C82.4324 51.9701 82.398 50.89 81.9754 49.9381C81.5529 48.9862 80.776 48.2387 79.8123 47.8567L49.0117 39.4634C51.4262 35.4651 54.2055 31.7024 57.3136 28.2238C64.2776 33.4565 71.047 38.9506 77.622 44.706C78.4718 45.3043 79.52 45.5442 80.5418 45.3742C81.5637 45.2042 82.4778 44.6379 83.0881 43.7966C83.669 42.9387 83.8979 41.8875 83.7274 40.8621C83.5568 39.8368 82.9998 38.9163 82.1725 38.2927C75.9753 32.8366 69.563 27.6133 62.9355 22.6229C66.2002 19.6825 69.732 17.0569 73.4845 14.7803C74.3305 14.3665 75.0017 13.6627 75.3778 12.7949C75.754 11.9271 75.8105 10.9522 75.5372 10.0449C75.2754 9.13106 74.6868 8.34653 73.885 7.84258C73.0832 7.33862 72.1251 7.151 71.1954 7.31597L50.4963 13.5716C44.1095 9.13771 37.5856 4.89703 30.9245 0.849587C30.2854 0.383373 29.523 0.1194 28.735 0.0915593C27.9469 0.0637146 27.169 0.273237 26.501 0.693264C25.8329 1.11329 25.305 1.72471 24.9849 2.44927C24.6648 3.17384 24.567 3.97859 24.7041 4.76045ZM18.8367 31.3014C21.9477 30.3524 25.0459 29.4216 28.1415 28.4752L28.9568 34.0438C25.5877 33.1236 22.2152 32.2147 18.8393 31.317L18.8367 31.3014ZM41.0721 37.3329L37.1822 36.2704L35.712 26.1932C40.1379 24.8497 44.5485 23.5088 48.977 22.1809L50.9575 23.5931C47.2002 27.822 43.8883 32.4316 41.0747 37.3484L41.0721 37.3329ZM34.5834 18.3599L33.6283 11.856C35.9975 13.3792 38.3711 14.9284 40.7489 16.5034C38.6955 17.1327 36.642 17.7618 34.586 18.3755L34.5834 18.3599Z"
-                        fill="white" />
-                </svg>
-
-                <svg class="vector4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 174 152" fill="none">
-                    <path
-                        d="M18.4391 150.702C14.9105 148.251 11.0019 146.398 6.87057 145.218C34.9466 142.101 27.7034 128.337 16.4704 110.348C15.1851 107.929 11.7162 101.154 16.9028 101.863C33.3201 110.336 42.0825 129.137 58.5839 138.164C60.8896 139.756 63.6331 140.592 66.4349 140.558C69.2368 140.523 71.9586 139.619 74.2242 137.97C76.4897 136.321 78.1871 134.009 79.0817 131.354C79.9762 128.698 80.0236 125.83 79.2175 123.147C74.8474 107.995 63.2044 96.7552 56.3674 83.0151C42.175 60.9439 56.9241 35.392 83.5839 44.135C81.3668 58.5766 87.1785 87.6511 107.202 81.6191C126.466 68.5887 104.421 43.9464 88.8744 38.9251C98.1716 -1.02371 140.926 -2.12061 173.217 9.00092L173.54 8.12832C140.296 -5.01221 95.7767 -3.39587 84.9328 37.4888C62.2292 28.8035 37.9315 47.2119 43.2624 71.7075C46.8558 89.7211 59.3758 103.577 67.5371 119.316C69.2055 123.001 72.3431 129.155 67.3358 130.997C59.2436 130.052 52.7132 121.813 46.5016 116.552C38.9354 109.506 32.0661 101.509 22.7905 96.3848C15.9821 91.8994 5.50995 96.6218 7.71084 105.531C12.7811 122.742 38.4435 136.895 6.36537 143.625C9.98342 141.168 13.4714 136.861 12.7505 132.215L12.3938 132.201C9.91994 137.378 5.0435 139.683 0.957601 143.249C0.581038 143.547 0.308371 143.956 0.178796 144.418C0.0492211 144.88 0.0693792 145.371 0.236344 145.821C0.403326 146.271 0.708548 146.656 1.10819 146.922C1.50784 147.187 1.98134 147.32 2.46076 147.299C7.90422 147.333 13.2053 148.898 18.2031 151.05L18.4391 150.702ZM96.9211 50.7291C129.561 77.814 85.678 95.0198 87.8435 45.656C91.0526 46.9961 94.0981 48.6982 96.9211 50.7291ZM2.47484 144.392C2.41777 144.389 2.43888 144.397 2.47484 144.392V144.392Z"
-                        fill="white" />
-                </svg>
-
-                <div class="video-container">
-
-                    <iframe width="740" height="380" src="https://www.youtube.com/embed/kGzBvqUzBas?si=RamDKM2ptuiQBoRU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
+            <div class="startup-helped-3">
+                <div class="home-text">
+                    <p>20+</p>
+                </div>
+                <div class="startup-helped bg-blue">
+                Personal Mentors
                 </div>
             </div>
         </div>
 
-        <div id="backgrounddots">
-            <div id="backgroundtop">
-                <div id="backgroundtopleft">
-                    <div id="backgroundtopleftheading">WHAT IS DISRUPT?</div>
-                    <div id="backgroundtopleftheadingvector">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="261" height="24" viewBox="0 0 261 24"
-                            fill="none">
-                            <path
-                                d="M56.8052 5.52666C81.5024 4.85302 106.213 4.41997 130.924 4.2275C155.634 4.03503 180.117 4.09919 204.706 4.40393C218.675 4.58036 232.657 4.82094 246.626 5.14172L248.521 1.85372C216.631 2.51132 184.755 3.32931 152.878 4.30769C121.002 5.28608 89.1253 6.42485 57.2488 7.74005C39.3544 8.47785 21.4734 9.24772 3.57903 10.0818C2.53037 10.1299 0.957384 10.4507 0.365833 11.6696C-0.185385 12.8084 0.836385 13.4018 1.68338 13.3698C34.9043 12.3593 68.1522 12.2631 101.387 13.0971C134.621 13.9311 167.828 15.7115 200.996 18.406C219.629 19.9137 238.25 21.7261 256.843 23.8272C257.852 23.9395 259.519 23.3461 260.057 22.2394C260.648 21.0364 259.546 20.6194 258.739 20.5392C225.653 16.8021 192.485 13.9792 159.291 12.0866C126.097 10.194 92.8494 9.24772 59.615 9.23168C40.9408 9.23168 22.2667 9.50435 3.59247 10.0818L1.69682 13.3698C33.5599 11.8781 65.4364 10.5629 97.3129 9.39207C129.189 8.23726 161.066 7.2268 192.943 6.39277C210.837 5.92764 228.745 5.49458 246.639 5.12569C247.688 5.10965 249.274 4.74075 249.852 3.53782C250.43 2.33489 249.368 1.85372 248.535 1.83768C223.811 1.29235 199.113 0.955531 174.403 0.875336C149.692 0.795141 125.21 0.939492 100.62 1.34047C86.6516 1.56502 72.6695 1.86976 58.7008 2.25469C57.6521 2.28677 56.0657 2.63963 55.4876 3.84256C54.9364 4.98133 55.9582 5.57478 56.8052 5.5427V5.52666Z"
-                                fill="#C15A47" />
-                        </svg>
-                    </div>
-                    <div id="backgroundtopleftparatext">Introducing Disrupt, the inaugural edition of Disrupt Startup
-                        Bootcamp—a revolutionary platform empowering aspiring entrepreneurs across India. This immersive
-                        program offers a tailored experience to shape startup ideas, develop minimum viable products
-                        (MVPs), and fuel exponential growth.
-                    </div>
-                    <div id="backgroundtopleftlist">
-                        <li class="backgroundleftlistpoints">North East India’s Largest Startup Bootcamp</li>
-                        <li class="backgroundleftlistpoints">Mentoring startups throughout the nation</li>
-                        <li class="backgroundleftlistpoints">Over 6+ Different Sectors</li>
-                        <li class="backgroundleftlistpoints">Open to all startups in any phase</li>
-                        <li class="backgroundleftlistpoints">250+ pitch deck submissions in the past</li>
-                        <li class="backgroundleftlistpoints">Over a 1000+ startups participated in the previous editions
-                        </li>
-                    </div>
+        <div id="about">
+            <div class="india-startup">
+            <div class="india-startup-heading">
+                <div class="india-startUp-h1 flex">
+                    <p class="gray">Navigating startup </p>
+                    <p class="white">Growth</p>
                 </div>
+                <div class="india-startUp-h1 flex">
+                    <p class="gray">providing tools &</p>
+                    <p class="white">Insights</p>
+                    <p class="gray">for</p>
+                </div>
+                <div class="india-startUp-h1 flex">
+                    <p class="gray">long term</p>
+                    <p class="white">Success</p>
+                </div>
+            </div>
+            <!-- <div class="random-text">
+                <p class="gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                    laoreet orci ut leo viverra , vitae congue orci facilisis.</p>
+            </div> -->
 
-                <!-- <div id="leftrightseparator">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="75%" viewBox="0 0 8 563" fill="none">
-                        <path d="M5.1814 5.09668L5.18137 557.843" stroke="#F1E7FF" stroke-width="10"
-                            stroke-linecap="round" />
-                    </svg>
-                </div>
-                <div id="backgroundtopright1">
-                    <div id="mobileversion">
-                        <div id="mobileversiontext">TIMELINE</div>
-                        <div id="mobileversionline">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="133" height="36" viewBox="0 0 93 16" fill="none">
-                                <path d="M91.8249 4.06178C91.8196 3.97481 91.7875 3.89226 91.735 3.83108C91.6826 3.76991 91.6138 3.73474 91.5428 3.73278C72.4482 3.17772 53.2689 3.95653 34.2678 5.52162C22.953 6.51131 11.5268 8.58035 0.584067 11.9151C0.504266 11.9402 0.435806 12.0005 0.391452 12.0846C0.347092 12.1687 0.329856 12.2709 0.342963 12.3722C0.348806 12.4152 0.368156 12.4543 0.396817 12.4811C0.425471 12.5079 0.461143 12.5203 0.496119 12.5154C30.7916 8.84582 61.0856 4.71033 91.668 4.2858C91.6903 4.28546 91.7122 4.27962 91.7323 4.26863C91.7524 4.25764 91.7704 4.24172 91.7851 4.22182C91.7998 4.20192 91.811 4.17845 91.8181 4.15278C91.8251 4.12711 91.8277 4.09977 91.8259 4.07238L91.8249 4.06178Z" fill="#F4CA76"/>
-                                <path d="M80.3718 7.76949C70.7701 7.28964 61.1114 7.75266 51.6943 9.66004C51.3868 9.72184 51.1765 10.0474 51.8241 9.99033C61.211 9.14644 70.9106 8.54287 80.334 8.09987C80.9297 8.06918 80.6472 7.78042 80.3718 7.76949Z" fill="#F4CA76"/>
-                                <path d="M50.0707 9.62158C49.3808 9.58502 48.6934 9.65673 48.0252 9.83497C47.9914 9.82427 47.9563 9.82354 47.9229 9.83285C47.8894 9.84215 47.8586 9.86121 47.8329 9.88845C47.8073 9.91569 47.7876 9.95031 47.7754 9.98943C47.7633 10.0285 47.7591 10.071 47.7632 10.1133C47.7673 10.1556 47.7795 10.1965 47.7989 10.2326C47.8183 10.2687 47.8442 10.2989 47.8746 10.3207C47.905 10.3426 47.9389 10.3554 47.9735 10.3581C48.0081 10.3609 48.0425 10.3535 48.0736 10.3365C48.7522 10.3286 49.4273 10.2581 50.0932 10.1256C50.1265 10.1386 50.1615 10.1418 50.1953 10.135C50.2291 10.1282 50.2608 10.1115 50.2877 10.0864C50.3146 10.0612 50.336 10.0283 50.3501 9.9904C50.3641 9.95249 50.3705 9.91066 50.3686 9.86837C50.3667 9.82607 50.3567 9.78453 50.3392 9.7472C50.3218 9.70986 50.2975 9.6778 50.2684 9.65368C50.2393 9.62956 50.2062 9.61407 50.1718 9.60848C50.1374 9.6029 50.1028 9.60739 50.0707 9.62158Z" fill="#F4CA76"/>
-                            </svg>
+            <div class="workshops flex">
+                <div class="workshop">
+                    <div class="workshop-img">
+                        <img src="assets/work-1.png">
+                    </div>
+                    <div class="workshop-content">
+                        <div class="workshop-content-h">
+                            Immersive Workshops
+                        </div>
+                        <div class="workshop-content-p gray">
+                            Access the top-notch content, mentorship, and guidance to open up new opportunities and
+                            unlock new doors for your startup
                         </div>
                     </div>
-                    <div id="backgroundtopright1textbox1">
-                        <div id="backgroundtopright1box1text1" class="backgroundtopright1textbox1text">Registration<br>
-                            Opens</div>
-                        <div id="backgroundtopright1box1text2" class="backgroundtopright1textbox1text">Preliminary
-                            Round<br>(Round 0)</div>
-                        <div id="backgroundtopright1box1text3" class="backgroundtopright1textbox1text">Deadline of
-                            form<br> and Round 0</div>
+                </div>
+                <div class="workshop">
+                    <div class="workshop-img">
+                        <img src="assets/work-2.png" alt="">
                     </div>
-                    <div id="backgroundtopright1textbox2">
-                        <div id="backgroundtopright1box2text1" class="backgroundtopright1textbox2text">Round 1</div>
-                        <div id="backgroundtopright1box2text2" class="backgroundtopright1textbox2text">Round 2</div>
-                        <div id="backgroundtopright1box3text3" class="backgroundtopright1textbox2text">D-day</div>
+                    <div class="workshop-content">
+                        <div class="workshop-content-h">
+                            Hands - On Mentorship
+                        </div>
+                        <div class="workshop-content-p gray">
+                            Receive customized guidance for your startup from industry professionals and seasoned
+                            mentors on a consistent basis.
+                        </div>
                     </div>
                 </div>
-                <div id="backgroundtopright2"  style="background-image: url(./image/Disrupt/timelinepng1.png) ">
-
-                </div>
-            
-                <div id="arrows">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="41" height="187" viewBox="0 0 41 187" fill="none">
-                        <path
-                            d="M8.09974 154.151C13.9174 162.377 16.5863 172.024 18.6597 181.822C19.6398 186.459 24.2508 187.706 26.3994 182.844C27.0619 181.343 27.1069 179.653 27.5158 178.076C30.2203 165.538 33.9677 153.251 37.9354 141.046C37.9616 140.964 37.9705 140.878 37.9616 140.793C37.9527 140.708 37.9261 140.626 37.8835 140.551C37.841 140.477 37.7834 140.413 37.7145 140.362C37.6455 140.311 37.5668 140.275 37.4832 140.257C37.3381 140.223 37.1858 140.237 37.0497 140.298C36.9136 140.359 36.8011 140.462 36.7296 140.593C34.4457 144.605 25.3212 158.364 25.673 168.071C24.6809 140.784 27.4173 117.47 27.4761 92.2667C28.1287 62.0699 29.5711 31.9105 31.8034 1.7884C31.8132 1.66921 31.7761 1.55092 31.7001 1.45861C31.624 1.3663 31.5151 1.30724 31.3962 1.29396C31.2931 1.28119 31.1891 1.30916 31.1063 1.37193C31.0235 1.43469 30.9684 1.52728 30.9528 1.63001C26.2543 31.5702 22.1843 61.6928 20.8377 91.9721C19.6436 118.791 19.7525 139.631 20.5244 162.887C20.2372 154.278 7.21008 147.099 2.73667 144.592C2.59034 144.509 2.42023 144.479 2.2545 144.507C2.08878 144.534 1.93741 144.617 1.82548 144.743C1.67004 144.922 1.58264 145.15 1.57865 145.387C1.57466 145.624 1.65432 145.855 1.80365 146.039C3.99583 148.785 6.18977 151.426 8.09974 154.151Z"
-                            fill="white" />
-                        <path
-                            d="M34.517 113.204C32.748 95.9328 33.4989 78.4964 36.7462 61.4415C36.7528 61.3549 36.7936 61.2745 36.8595 61.2179C36.9253 61.1614 37.011 61.1333 37.0976 61.1399C37.1842 61.1465 37.2646 61.1873 37.3211 61.2531C37.3777 61.319 37.4058 61.4047 37.3992 61.4913C37.8643 78.7615 37.1196 96.043 35.1707 113.209C35.17 113.296 35.1349 113.379 35.073 113.44C35.0112 113.5 34.9278 113.534 34.8411 113.533C34.7544 113.533 34.6716 113.497 34.6108 113.436C34.55 113.374 34.5163 113.29 34.517 113.204Z"
-                            fill="white" />
-                        <path
-                            d="M37.2674 57.3675C36.8168 56.3288 36.5992 55.204 36.6297 54.0721C36.6602 52.9403 36.9383 51.8288 37.4442 50.8159C37.4818 50.7387 37.5431 50.6755 37.619 50.6354C37.695 50.5953 37.7818 50.5805 37.8667 50.593C37.9517 50.6056 38.0305 50.6449 38.0916 50.7052C38.1528 50.7655 38.1932 50.8437 38.2069 50.9285C38.4365 53.0313 38.3746 55.1558 38.023 57.2417C38.0128 57.3275 37.9751 57.4077 37.9155 57.4702C37.8559 57.5327 37.7776 57.5741 37.6924 57.5883C37.6072 57.6025 37.5197 57.5886 37.4431 57.5488C37.3664 57.509 37.3048 57.4454 37.2674 57.3675Z"
-                            fill="white" />
-                    </svg>
-                </div>
-            </div> -->
-            
-            <div id="backgroundbottom">
-                <div id="backgroundbottomline1">
-                    <div class="unionstarttext">
-                        <div id="backgroundbottomline1text1" class="sponsorlogotext"></div>
-
+                <div class="workshop">
+                    <div class="workshop-img">
+                        <img src="assets/work-3.png" alt="">
                     </div>
-                    <div class="unionstarttext">
-                        <div id="backgroundbottomline1text1" class="sponsorlogotext"></div>
-
-                    </div>
-                    <div class="unionstarttext">
-                        <div id="backgroundbottomline1text1" class="sponsorlogotext"></div>
-
-                    </div>
-                    <div class="unionstarttext">
-                        <div id="backgroundbottomline1text1" class="sponsorlogotext"></div>
-
-                    </div>
-                    <div class="unionstarttext">
-                        <div id="backgroundbottomline1text1" class="sponsorlogotext"></div>
-
+                    <div class="workshop-content">
+                        <div class="workshop-content-h">
+                            Networking and Funding
+                        </div>
+                        <div class="workshop-content-p gray">
+                            Broaden your network and secure funding from industry professionals and accomplished
+                            entrepreneurs.
+                        </div>
                     </div>
                 </div>
-                <div id="backgroundbottomline"></div>
-                <div id="backgroundbottomline2">
-                    <div class="unionstarttextb">
-                        <div id="backgroundbottomline1text1" class="sponsorlogotext"></div>
+            </div>
 
-                    </div>
-                    <div class="unionstarttextb">
-                        <div id="backgroundbottomline1text1" class="sponsorlogotext"></div>
+        </div>
+        </div>
 
-                    </div>
-                    <div class="unionstarttextb">
-                        <div id="backgroundbottomline1text1" class="sponsorlogotext"></div>
+<!--         
+        <div class="timeline">
+            <div class="timeline-head">
+                Timeline
+            </div>
+            <div class="timeline-text">
+                Startups begin by filling out a basic form on Unstop, followed by a detailed questionnaire sent via email. The top 80 startups will be selected based on their submissions.
+            </div>
+            <div class="timeline-line">
 
+            </div>
+            <div class="timeline-box">
+                <div class="timeline-boxes">
+                    <div class="timeline-boxes-head gray">
+                        Registrations
                     </div>
-                    <div class="unionstarttextb">
-                        <div id="backgroundbottomline1text1" class="sponsorlogotext"></div>
+                    <div class="timeline-boxes-line"></div>
+                    <div class="timeline-boxes-date">
+                        <p>22nd August</p>
+                        <p>to</p>
+                        <p> 17th September</p>
                     </div>
-                    <div class="unionstarttextb">
-                        <div id="backgroundbottomline1text1" class="sponsorlogotext"></div>
+                </div>
 
+                <div class="timeline-boxes">
+                    <div class="timeline-boxes-head gray">
+                        Round 1
                     </div>
+                    <div class="timeline-boxes-line"></div>
+                    <div class="timeline-boxes-date">
+                        <p>2nd October</p>
+                        <p>to</p>
+                        <p> 29th October</p>
+                    </div>
+                </div>
+
+
+                <div class="timeline-boxes">
+                    <div class="timeline-boxes-head gray">
+                        Round 2
+                    </div>
+                    <div class="timeline-boxes-line"></div>
+                    <div class="timeline-boxes-date">
+                        <p>6th November</p>
+                        <p>to</p>
+                        <p> 10th December</p>
+                    </div>
+                </div>
+
+ 
+                <div class="timeline-boxes">
+                    <div class="timeline-boxes-head gray">
+                        Round 3
+                    </div>
+                    <div class="timeline-boxes-line"></div>
+                    <div class="timeline-boxes-date">
+                        <p>15th December</p>
+                        <p>to</p>
+                        <p> 5th January</p>
+                    </div>
+                </div>
+
+                <div class="timeline-boxes">
+                    <div class="timeline-boxes-head gray">
+                        D Day
+                    </div>
+                    <div class="timeline-boxes-line"></div>
+                    <div class="timeline-boxes-date">
+                        <p>18th January</p>
+                        <p>During UDGAM</p>
+                        <p>2025</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-rules hover gray">
+                <a href="./timeline.html">Rules and Regulation <i class="fa-solid fa-arrow-up-right-from-square gray"></i></a>
+            </div>
+        </div> -->
+
+        <div class="perks-disrupt">
+
+            <div class="perk-head white flex"><span style="color:grey"> What you get to</span> breakthrough?
+            </div>
+
+            <div class="perks-main">
+
+                <div class="perks-main-box hover">
+                    <div class="perks-main-box-head">
+                        <img src="assets/person.png" alt="search">
+                        <p>Mentorship</p>
+                    </div>
+                    <div class="perks-main-box-text">
+                        Acquire insights through tailored guidance from industry experts and experienced mentors.
+                        Experts in various fields will offer one-on-one mentorship to help your startup grow by
+                        providing proper guidance and advices.
+                    </div>
+                </div>
+
+                <div class="perks-main-box hover">
+                    <div class="perks-main-box-head">
+                        <img src="assets/rupees.png" alt="search">
+                        <p>Funding</p>
+                    </div>
+                    <div class="perks-main-box-text">
+                        Unlock opportunities to secure funding from leading venture capitalists and angel investors,
+                        elevating your startup to new heights.
+                    </div>
+                </div>
+
+                <div class="perks-main-box hover">
+                    <div class="perks-main-box-head">
+                        <img src="assets/network.png" alt="search">
+                        <p>Networking</p>
+                    </div>
+                    <div class="perks-main-box-text">
+                        Connect with elite investors and startups, forging valuable relationships that pave the way for
+                        success.
+                    </div>
+                </div>
+
+                <div class="perks-main-box hover">
+                    <div class="perks-main-box-head">
+                        <img src="assets/session.png" alt="search">
+                        <p>Sessions</p>
+                    </div>
+                    <div class="perks-main-box-text">
+                        Experience intensive sessions designed to hone your startup skills, from ideation and MVP
+                        development to business scaling and investor pitching
+                    </div>
+                </div>
+
+                <div class="perks-main-box hover">
+                    <div class="perks-main-box-head">
+                        <img src="assets/search.png" alt="search">
+                        <p>Resources</p>
+                    </div>
+                    <div class="perks-main-box-text ">
+                        Your ultimate hub for startup resources. Discover top content to enhance your entrepreneurial
+                        expertise. Customized resources will be provided as per classification of startups
+                    </div>
+                </div>
+
+                <div class="perks-main-box hover">
+                    <div class="perks-main-box-head">
+                        <img src="assets/prize.png" alt="search">
+                        <p>Prizes</p>
+                    </div>
+                    <div class="perks-main-box-text">
+                        Compete for cash prizes , providing crucial funding to fuel your entrepreneurial
+                        journey
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="feedback-page">
+            <div class="feedback-page-head">
+                No need to<span style="color:white"> take our word</span> for it,
+                See our <span style="color:white">clients’ feedback </span>about us.
+            </div>
+            <div class="sidebar">
+                <button class="prev">&#10094;</button>
+                <div class="carousel-container">
+                    <div class="carousel">
+                    <div class="slide">
+                        <img class="double-quote-open" src="assets/opening-cot.png" alt="">
+                        <blockquote>
+                            <p>"Disrupt is a fantastic opportunity—don’t miss it! The organizers are supportive, making the experience smooth and enjoyable. The judges were interactive and provided valuable feedback, helping refine my pitch. I also gained potential collaborations, including one with Rahul Sir, an agile investor. Overall, Disrupt was a remarkable experience."</p>
+                            <div class="user-profile">
+                                <img src="assets/user.png" alt="user">
+                                <div class="user-profile-text">
+                                    <div class="user-profile-name">Nikita</div>
+                                    <div class="user-profile-info gray">Founder of Bliscare</div>
+                                </div>
+                            </div>
+                        </blockquote>
+                        <img class="double-quote-close" src="assets/closing-cot.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img class="double-quote-open" src="assets/opening-cot.png" alt="">
+                        <blockquote>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eligendi nesciunt qui, repellendus aut molestias blanditiis mollitia, vel ex in fugiat aspernatur, quam ullam beatae deserunt voluptates quos. Cupiditate, vitae.
+                            Repellendus in sint repudiandae et voluptatibus culpa rerum, laboriosam laborum veniam corrupti voluptatem quod blanditiis reiciendis laudantium voluptates molestiae quae error nam accusamus obcaecati, totam aliquid officiis animi? Eligendi, eaque?</p>
+                            <div class="user-profile">
+                                <img src="assets/user.png" alt="user">
+                                <div class="user-profile-text">
+                                    <div class="user-profile-name">Ayush Bahuguna</div>
+                                    <div class="user-profile-info gray">Design Head, NotifyBear</div>
+                                </div>
+                            </div>
+                            <img class="double-quote-close" src="assets/closing-cot.png" alt="">
+                        </blockquote>
+                    </div>
+                    <div class="slide">
+                        <img class="double-quote-open" src="assets/opening-cot.png" alt="">
+                        <blockquote>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eligendi nesciunt qui, repellendus aut molestias blanditiis mollitia, vel ex in fugiat aspernatur, quam ullam beatae deserunt voluptates quos. Cupiditate, vitae.
+                            Repellendus in sint repudiandae et voluptatibus culpa rerum, laboriosam laborum veniam corrupti voluptatem quod blanditiis reiciendis laudantium voluptates molestiae quae error nam accusamus obcaecati, totam aliquid officiis animi? Eligendi, eaque?</p>
+                            <div class="user-profile">
+                                <img src="assets/user.png" alt="user">
+                                <div class="user-profile-text">
+                                    <div class="user-profile-name">Ayush Bahuguna</div>
+                                    <div class="user-profile-info gray">Design Head, NotifyBear</div>
+                                </div>
+                            </div>
+                        </blockquote>
+                        <img class="double-quote-close" src="assets/closing-cot.png" alt="">
+                    </div>
+                    </div>
+                
+                </div>
+                <button class="next">&#10095;</button>
+            </div>
+            <div class="indicators">
+                
+            </div>
+        </div>
+
+        <div class="doubt-page">
+            <div class="doubt-page-head white"><span style="color:grey">Any</span> doubts?<span
+                    style="color:grey">We</span>
+                can help.
+            </div>
+            <div class="doubts-table">
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What kind of support does Disrupt offer to startups?</span>
+                        <button class="toggle-btn">+</button>
+                        <button class="close-btn">X</button>
+                    </div>
+                    <div class="faq-answer gray">
+                        <p>A resource guide and one-on-one mentorship.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>How does Disrupt help expand networks to industrial feedback?</span>
+                        <button class="toggle-btn">+</button>
+                        <button class="close-btn">X</button>
+                    </div>
+                    <div class="faq-answer gray">
+                        <p>Connects startups with industry experts for valuable feedback.</p>
+                        
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What type of workshops/seminars does Disrupt organize?</span>
+                        <button class="toggle-btn">+</button>
+                        <button class="close-btn">X</button>
+                    </div>
+                    <div class="faq-answer gray">
+                        <p>Workshops on business, marketing, pitching, and fundraising.</p>
+                        
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Will I get feedback from mentors/industrial experts regarding my startup?</span>
+                        <button class="toggle-btn">+</button>
+                        <button class="close-btn">X</button>
+                    </div>
+                    <div class="faq-answer gray">
+                        <p>Yes, detailed feedback from mentors and experts.</p>
+                        
+                    </div>
+                </div>
                 </div>
             </div>
         </div>
-        
-        <div class="tracks">
-            <div class="image">
-                <img src="./image/Disrupt/tracks.png" alt="">
-            </div>
-        </div>
 
-        <div class="incentives">
-            <div class="image">
-                <img src="./image/Disrupt/incentives.png" alt="">
-            </div>
-        </div>
-
-        <div class="speakers">
-            <div class="image">
-                <img src="./image/Disrupt/speakers.png" alt="">
-            </div>
-        </div>
-        
-        <footer id="websitefooter">
-            <div class="Contact">
-                <p style="align-self: center;padding: 6%;" id="websitefootercontactecelllogo"><img src="./image/Disrupt/E-Cell logo.png"></p>
-                <p style="align-self: center;padding: 6%;" id="websitefootercontactecellline"><img src="./image/Disrupt/Line 6.png"></p>
-                <p style="align-self: center;padding-left: 4%;font-family: 'Sora', sans-serif;" id="websitefootercontactecelltext">
-                    <span style="font-size: 130%;">Contact us</span><br>
-                    <span style="font-size: 100%;">edc@iitg.ac.in</span><br>
-                    <span style="font-size: 100%;">+91&nbsp6394171928</span>
-                </p>
-            </div>
-            <div class="social_media" style="display: flex;">
-                <div style="padding: 10%;">
-                    <div style="font-size: 125%;font-family: 'Sora', sans-serif;" id="followfollowtext">Follow us to get<br
-                            style="margin-bottom: 5px;">frequent updates !
-                    </div>
-                    <br style="margin-bottom: 22.45px;">
-                    <a href="https://www.linkedin.com/company/ecell-iitg/"><img src="./image/Disrupt/Vector.png" id="ecelll">
-                    </a>
-                    <a href="https://twitter.com/ecelliitg"><img src="./image/Disrupt/icons8-twitterx 1.png" id="ecellt">
-                    </a><br>
-                    <a href="https://www.instagram.com/ecell_iitg/"><img src="./image/Disrupt/Vector(1).png " id="ecelli">
-                    </a>
-                    <a href="https://www.facebook.com/ecell.iitg/"><img src="./image/Disrupt/icons8-facebook 1.png" id="ecellf">
-                    </a>
-                </div>
-            </div>
-        </footer>
     </div>
 
-    </div>
-    </div>
-    <script>
-        window.smoothScroll = function(target) {
-            var scrollContainer = target;
-            do { //find scroll container
-                scrollContainer = scrollContainer.parentNode;
-                if (!scrollContainer) return;
-                scrollContainer.scrollTop += 1;
-            } while (scrollContainer.scrollTop == 0);
-
-            var targetY = 0;
-            do { //find the top of target relatively to the container
-                if (target == scrollContainer) break;
-                targetY += target.offsetTop;
-            } while (target = target.offsetParent);
-
-            scroll = function(c, a, b, i) {
-                i++; if (i > 30) return;
-                c.scrollTop = a + (b - a) / 30 * i;
-                setTimeout(function(){ scroll(c, a, b, i); }, 20);
-            }
-            // start scrolling
-            scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
-        }
-    </script>
-
-    <script type="text/javascript">
-        document.getElementById("formbtn").onclick = function () {
-            location.href = "https://form.jotform.com/232465470119455";
-        };
-    </script>
+    <footer>
+        <div class="f-part-1" id = "contactUs">
+            <a href="https://www.ecelliitg.in/"><img src="assets/e-cell-logo.png" alt=""></a>
+            <div class="email-f">
+                <span>Email</span>
+                <p>edc@iitg.ac.in</p>
+            </div>
+            <div class="email-f">
+                <span>Phone No. :</span>
+                <p>+91 9769001420</p>
+            </div>
+        </div>
+        <div class="f-part-2">
+            <img src="assets/disrupt-logo.png" alt="">
+            <div class="email-f">
+                <span>Email</span>
+                <p>disrupt2k24@gmail.com</p>
+            </div>
+            <div class="email-f">
+                <span>Phone No. :</span>
+                <p>+91 9773971295</p>
+            </div>
+        </div>
+        <div class="f-part-3 ">
+            <span>Quick Links</span>
+            <p class="hover">Home</p>
+            <p class="hover">Timeline</p>
+            <p class="hover">Contact Us</p>
+            <p class="hover">About</p>
+        </div>
+        <div class="f-follow-us">
+            <span>Follow Us</span>
+            <div class="img flex">
+                <img class="icon-f hover" src="assets/youtube.png" alt="">
+                <img class="icon-f hover" src="assets/linkdin.png" alt="">
+            </div>
+            <div class="img flex">
+                <img class="icon-f hover" src="assets/insta.png" alt="">
+                <img class="icon-f hover" src="assets/twitter.png" alt="">
+            </div>
+        </div>
+    </footer>
+    <script src="disrupt_script.js"></script>
 </body>
-    
-        
+
 </html>
+
+
