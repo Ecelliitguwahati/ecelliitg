@@ -153,8 +153,8 @@ body{
 }
 .speaker-card{
     border: 1px solid #FEFBF1;
-    width: 180px;
-    height: 190px;
+    width: 170px;
+    height: 180px;
     background-color: #0C1A38;
     border-radius: 18px;
     display: flex;
