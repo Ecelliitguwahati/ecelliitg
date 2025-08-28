@@ -1,26 +1,57 @@
-gsap.fromTo('.landing-union',{rotate:-20},{
-    rotate:20,
-    duration:0.6,
-    repeat:-1,
-    yoyo:true,
-    ease:'power1.inOut',
-})
-gsap.fromTo('.landing-purple',{rotate:-120},{
-    rotate:-180,
-    delay:0.2,
-    duration:0.6,
-    repeat:-1,
-    yoyo:true,
-    ease:'power1.inOut',
-})
-gsap.from('.landing-green',{
-    rotate:5,
-    delay:0.4,
-    duration:0.2,
-    repeat:-1,
-    yoyo:true,
-    ease:'power1.inOut',
-})
+// gsap.fromTo('.landing-union',{rotate:-20},{
+//     rotate:20,
+//     duration:0.6,
+//     repeat:-1,
+//     yoyo:true,
+//     ease:'power1.inOut',
+// })
+gsap.fromTo('.landing-union',
+  { y: -20 }, // start 10px up
+  {
+    y: 20,     // move 10px down
+    duration: 2,
+    repeat: -1, 
+    yoyo: true,
+    ease: "sine.inOut" // smooth floating
+  }
+);
+// gsap.fromTo('.landing-purple',{rotate:-120},{
+//     rotate:-180,
+//     delay:0.2,
+//     duration:0.6,
+//     repeat:-1,
+//     yoyo:true,
+//     ease:'power1.inOut',
+// })
+gsap.fromTo('.landing-purple',
+  { x: -50 }, // start 10px up
+  {
+    x: 20,     // move 10px down
+    duration: 4,
+    repeat: -1, 
+    yoyo: true,
+    ease: "sine.inOut" // smooth floating
+  }
+);
+// gsap.from('.landing-green',{
+//     rotate:5,
+//     delay:0.4,
+//     duration:0.2,
+//     repeat:-1,
+//     yoyo:true,
+//     ease:'power1.inOut',
+// })
+gsap.fromTo('.landing-green',
+  { y: -50, x: -50 }, // start 10px up
+  {
+    y: 20,     // move 10px down
+    x: 20,
+    duration: 5,
+    repeat: -1, 
+    yoyo: true,
+    ease: "sine.inOut" // smooth floating
+  }
+);
 gsap.to('.landing-star img',{
     rotate:360,
     duration:8,
