@@ -1,49 +1,45 @@
-
-body{
-    margin:0px;
-}
 .nav{
     box-sizing: border-box;
     background: #070C17;
     display: flex;
-    width: 100%;
+    width: 100vw;
     height:120px;
     padding: 20px 80px;
     flex-direction: row;
     align-items: center;
-    gap: 10px;
     justify-content: space-around;
-    /* border: 2px solid yellow; */
 }
 .nav .first{
     width: 45px;
-height: 50px;
-/* margin-left: -1rem; */
-/* padding:10px 0px; */
+    height: 50px;
 }
 .pages{
-    /* box-sizing: border-box; */
     display: flex;
-    width: 580px;
-    max-width: 100%;
+    width: 50%;
+    max-width: 700px;
+    min-width: 300px;
     height: 65px;
-    padding: 10px 26px;
-    margin: 0;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: flex-start;
-    gap: 15px;
+    align-items: center;
     border-radius: 50px;
     background: #141B2A;
     overflow: hidden;
-    /* border: 1px dotted wheat; */
+}
+.pages li a{
+    display: block;
+    text-decoration: none;
+    color: inherit;
 }
 .pages li{
     display: flex;
     white-space: nowrap;
-    box-sizing: border-box;
-    padding: 11px 2px;
+    padding-right: 20px;
+    padding-left: 20px;
+    flex : 1 1 auto;
+    min-width:0;
     align-items: center;
+    justify-content: center;
     color: #D9FE78;
     font-family: Montserrat;
     font-size: 1.2rem;
@@ -51,24 +47,13 @@ height: 50px;
     font-weight: 550;
     line-height: normal; 
     list-style: none; 
-    transition: background-color 0.3s  ease-in, border-radius 0.3s ease-in;
-    height: 100%; /* Ensure li fills parent flex height */
-    min-height: 0; /* Prevent overflow */
-    flex: 1 1 auto; /* Allow li to shrink/grow inside flex */
-    overflow: hidden; /* Hide overflow content */
-    /* border: 1px dotted blue; */
+    border-radius: 50px;
+    transition: background-color 0.2s ;
+    height: 100%; 
 }
 .pages li:hover{
-    display: flex;
-    /* width: 112px;
-    height: 45px; */
-    padding: 11px 22px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    flex-shrink: 0;
     border-radius: 50px;
-    background: #D9FE78;
+    background-color: #D9FE78;
     color:#070C17;
     cursor: pointer;
     
@@ -142,12 +127,13 @@ height: 50px;
 .popupMenu{
     display:none;
 }
+
 @media(max-width:769px){
     .pages li{
         font-size: 17px;
     }
 }
-@media(max-width:426px){
+@media(max-width:1000px){
     .first{
         display: none;
     }

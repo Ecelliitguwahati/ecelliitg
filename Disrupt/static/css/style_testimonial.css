@@ -126,7 +126,7 @@
     border: 1px solid #FEFBF1;
     border-radius: 40px;
     opacity: 1;
-    pointer-events: none;
+    /* pointer-events: none; */
     display: flex;
     align-items: center;
     justify-content: space-around;
